@@ -267,7 +267,7 @@ header.scrolled {
 
 .goals-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%,300px), 1fr));
     gap: 30px;
     margin-top: 50px;
 }
@@ -550,4 +550,23 @@ footer {
     .section-title {
         font-size: 1.8rem;
     }
+}
+@media (max-width: 425px) {
+   
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+   .container{
+        width: 95%;
+        
+   }
+   .goal-card{
+        padding: 15px;
+   }
+   .contact-info p{
+        padding:10px;
+        
+   }
+
+    
 }
