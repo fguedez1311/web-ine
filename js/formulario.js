@@ -1,4 +1,5 @@
 const d=document
-d.addEventListener("DOMContentLoaded", (e) => {
-    console.log(    "DOM fully loaded and parsed");
-});
+d.addEventListener("submit", (e) => {
+   
+   alert("Formulario enviado");
+} );
