@@ -1,0 +1,116 @@
+{
+  "dpt": [
+    {
+      "codigo": 100100,
+      "nombre": "ANTONIO DÍAZ"
+    },
+    {
+      "codigo": 100101,
+      "nombre": "CURIAPO"
+    },
+    {
+      "codigo": 100102,
+      "nombre": "ALMIRANTE LUIS BRIÓN"
+    },
+    {
+      "codigo": 100103,
+      "nombre": "FRANCISCO ANICETO LUGO"
+    },
+    {
+      "codigo": 100104,
+      "nombre": "MANUEL RENAUD"
+    },
+    {
+      "codigo": 100105,
+      "nombre": "PADRE BARAL"
+    },
+    {
+      "codigo": 100106,
+      "nombre": "SANTOS DE ABELGAS"
+    },
+    {
+      "codigo": 100200,
+      "nombre": "CASACOIMA"
+    },
+    {
+      "codigo": 100201,
+      "nombre": "IMATACA"
+    },
+    {
+      "codigo": 100202,
+      "nombre": "CINCO DE JULIO"
+    },
+    {
+      "codigo": 100203,
+      "nombre": "JUAN BAUTISTA ARISMENDI"
+    },
+    {
+      "codigo": 100204,
+      "nombre": "MANUEL PIAR"
+    },
+    {
+      "codigo": 100205,
+      "nombre": "ROMULO GALLEGOS"
+    },
+    {
+      "codigo": 100300,
+      "nombre": "PEDERNALES"
+    },
+    {
+      "codigo": 100400,
+      "nombre": "TUCUPITA"
+    },
+    {
+      "codigo": 100401,
+      "nombre": "SAN JOSÉ"
+    },
+    {
+      "codigo": 100402,
+      "nombre": "JOSE VIDAL MARCANO"
+    },
+    {
+      "codigo": 100403,
+      "nombre": "JUAN MILLAN"
+    },
+    {
+      "codigo": 100404,
+      "nombre": "LEONARDO RUIZ PINEDA"
+    },
+    {
+      "codigo": 100405,
+      "nombre": "MARISCAL ANTONIO JOSÉ DE SUCRE"
+    },
+    {
+      "codigo": 100406,
+      "nombre": "MONSEÑOR ARGIMIRO GARCÍA"
+    },
+    {
+      "codigo": 100407,
+      "nombre": "SAN RAFAEL"
+    },
+    {
+      "codigo": 100408,
+      "nombre": "VIRGEN DEL VALLE"
+    }
+  ],
+  "publicaciones": [
+    {
+      "cod_dpt": 100100,
+      "cod_pub": "10010001.pptx",
+      "tipo": "url1",
+      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
+    },
+    {
+      "cod_dpt": 100100,
+      "cod_pub": "10010002.pptx",
+      "tipo": "url2",
+      "url": "https://docs.google.com/presentation/d/1JJA-uh6xHtJ0ZtC9I7DfJZyQgSnHDiZEWp/edit/usp=drive_link&ouid=10863005287049301490&rtpof=true&sd=true"
+    },
+    {
+      "cod_dpt": 100100,
+      "cod_pub": "10010003.pdf",
+      "tipo": "url3",
+      "url": "https://drive.google.com/file/d/1hL0BXOJ2iApEQHHE2SNfS0tONSt2iXLk/view?usp=drive_link&resourcekey=0-BOYkNfWf0cRk_nxrh16-FfQ"
+    }
+  ]
+}
