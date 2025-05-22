@@ -95,22 +95,22 @@
   ],
   "publicaciones": [
     {
-      "cod_dpt": 100100,
-      "cod_pub": "10010001.pptx",
-      "tipo": "url1",
+      "titulo": "Informe Anual 2023",
+      "descripción": "Informe completo de actividades realizadas durante el año 2023",
+      "tipo": "PDF",
       "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
     },
     {
-      "cod_dpt": 100100,
-      "cod_pub": "10010002.pptx",
-      "tipo": "url2",
-      "url": "https://docs.google.com/presentation/d/1JJA-uh6xHtJ0ZtC9I7DfJZyQgSnHDiZEWp/edit/usp=drive_link&ouid=10863005287049301490&rtpof=true&sd=true"
+      "titulo": "Plan de Desarrollo Urbano",
+      "descripción": "Documento que describe el plan de desarrollo para los próximos 5 años",
+      "tipo": "DOC",
+      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
     },
-    {
-      "cod_dpt": 100100,
-      "cod_pub": "10010003.pdf",
-      "tipo": "url3",
-      "url": "https://drive.google.com/file/d/1hL0BXOJ2iApEQHHE2SNfS0tONSt2iXLk/view?usp=drive_link&resourcekey=0-BOYkNfWf0cRk_nxrh16-FfQ"
+     {
+      "titulo": "Fotos del Evento Oficial",
+      "descripción": "Galería de imágenes del evento de inauguración",
+      "tipo": "IMG",
+      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
     }
   ]
 }

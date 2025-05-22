@@ -185,40 +185,7 @@ header.scrolled {
     font-size: 1.5rem;
 }
 
-/* Hero section */
-.hero {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/fondo.jpg') no-repeat center center/cover;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-top: 80px;
-}
 
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    line-height: 1.2;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    opacity: 0.9;
-}
-
-.hero-btns {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
-}
 
 /* About section */
 .about {
@@ -513,7 +480,7 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 80px);
-        background-color: white;
+        background-color: var(--primary-color);
         flex-direction: column;
         align-items: center;
         justify-content: center;
