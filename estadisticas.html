@@ -6,6 +6,7 @@
     <title>SAU - Publicaciones Estadísticas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/tabla.css">
 </head>
 <body>
     <!-- Header -->
@@ -29,7 +30,52 @@
             </nav>
         </div>
     </header>
-
+    <!-- Main Content -->
+     <main>
+        <div class="container">
+            <div class="header-tabla">
+                <h2>Publicaciones Estadísticas</h2>
+                
+                <div class="search-con tainer">
+                    <input type="text" id="searchInput" placeholder="Buscar publicaciones...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+        
+            <div class="table-container">
+                <div class="custom-scrollbar" style="overflow-x: auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Descripción</th>
+                                <th>Formato</th>
+                                <th>URL</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Data will be inserted here by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination">
+                    <div class="pagination-info">
+                        Mostrando <span id="currentItems">0</span> de <span id="totalItems">0</span> publicaciones
+                    </div>
+                    <div class="pagination-buttons">
+                        <button id="prevBtn" class="pagination-btn" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button id="nextBtn" class="pagination-btn" disabled>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </main>
     
 
    
@@ -86,5 +132,6 @@
             });
         });
     </script>
+    <script src="js/tabla.js"></script>
 </body>
 </html>
