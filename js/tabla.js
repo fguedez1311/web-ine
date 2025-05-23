@@ -1,29 +1,26 @@
  // Sample JSON data (in a real scenario, this would be loaded from an external file)
         const publicationsData = {
             "publications": [
+               
+              
                 {
-                    "title": "Indicadores Económicos 2023",
-                    "description": "Reporte completo de indicadores económicos nacionales para el año 2023",
-                    "format": "pdf",
-                    "url": "https://example.com/reports/economic-indicators-2023.pdf"
-                },
-                {
-                    "title": "Estadísticas Demográficas",
-                    "description": "Datos actualizados sobre población, natalidad y mortalidad",
+                    "title": "Hogares Por Municipio y parroquia año 2011",
+                    "description": "Imagen del municipio Perdernales",
                     "format": "xls",
-                    "url": "https://example.com/reports/demographic-stats.xlsx"
+                   
+                    "url": "https://docs.google.com/spreadsheets/d/1Fak4DC6ifb1S4S6MyWHCYqX_pEfS0daH/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
+                },
+                 {
+                    "title": "Cartografía Antonio José de Sucre 2009",
+                    "description": "Mapa de la Parroquia Antonio José de Sucre",
+                    "format": "PPT",
+                    "url": "https://docs.google.com/presentation/d/18yhfzaQzHPpnZSdZDsZKbc8KA0hzjt3a/edit?slide=id.p1#slide=id.p1"
                 },
                 {
-                    "title": "Presentación Sector Industrial",
-                    "description": "Análisis del crecimiento del sector industrial en la última década",
-                    "format": "ppt",
-                    "url": "https://example.com/presentations/industrial-sector.pptx"
-                },
-                {
-                    "title": "Infografía Educación 2023",
-                    "description": "Resumen gráfico de los principales indicadores educativos",
+                    "title": "Centro de Salud Pedernales",
+                    "description": "Centro de Salud de la Parroquia Pedernales",
                     "format": "jpg",
-                    "url": "https://example.com/images/education-infographic.jpg"
+                    "url": "https://drive.google.com/file/d/1aLC7BW2paDm6qLS0B_z93rLFrFBFcc7x/view?usp=drive_link"
                 },
                 {
                     "title": "Tutorial Datos Abiertos",
