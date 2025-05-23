@@ -1,0 +1,116 @@
+{
+  "dpt": [
+    {
+      "codigo": 100100,
+      "nombre": "ANTONIO DÍAZ"
+    },
+    {
+      "codigo": 100101,
+      "nombre": "CURIAPO"
+    },
+    {
+      "codigo": 100102,
+      "nombre": "ALMIRANTE LUIS BRIÓN"
+    },
+    {
+      "codigo": 100103,
+      "nombre": "FRANCISCO ANICETO LUGO"
+    },
+    {
+      "codigo": 100104,
+      "nombre": "MANUEL RENAUD"
+    },
+    {
+      "codigo": 100105,
+      "nombre": "PADRE BARAL"
+    },
+    {
+      "codigo": 100106,
+      "nombre": "SANTOS DE ABELGAS"
+    },
+    {
+      "codigo": 100200,
+      "nombre": "CASACOIMA"
+    },
+    {
+      "codigo": 100201,
+      "nombre": "IMATACA"
+    },
+    {
+      "codigo": 100202,
+      "nombre": "CINCO DE JULIO"
+    },
+    {
+      "codigo": 100203,
+      "nombre": "JUAN BAUTISTA ARISMENDI"
+    },
+    {
+      "codigo": 100204,
+      "nombre": "MANUEL PIAR"
+    },
+    {
+      "codigo": 100205,
+      "nombre": "ROMULO GALLEGOS"
+    },
+    {
+      "codigo": 100300,
+      "nombre": "PEDERNALES"
+    },
+    {
+      "codigo": 100400,
+      "nombre": "TUCUPITA"
+    },
+    {
+      "codigo": 100401,
+      "nombre": "SAN JOSÉ"
+    },
+    {
+      "codigo": 100402,
+      "nombre": "JOSE VIDAL MARCANO"
+    },
+    {
+      "codigo": 100403,
+      "nombre": "JUAN MILLAN"
+    },
+    {
+      "codigo": 100404,
+      "nombre": "LEONARDO RUIZ PINEDA"
+    },
+    {
+      "codigo": 100405,
+      "nombre": "MARISCAL ANTONIO JOSÉ DE SUCRE"
+    },
+    {
+      "codigo": 100406,
+      "nombre": "MONSEÑOR ARGIMIRO GARCÍA"
+    },
+    {
+      "codigo": 100407,
+      "nombre": "SAN RAFAEL"
+    },
+    {
+      "codigo": 100408,
+      "nombre": "VIRGEN DEL VALLE"
+    }
+  ],
+  "publicaciones": [
+    {
+      "titulo": "Informe Anual 2023",
+      "descripción": "Informe completo de actividades realizadas durante el año 2023",
+      "tipo": "PDF",
+      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
+    },
+    {
+      "titulo": "Plan de Desarrollo Urbano",
+      "descripción": "Documento que describe el plan de desarrollo para los próximos 5 años",
+      "tipo": "DOC",
+      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
+    },
+     {
+      "titulo": "Fotos del Evento Oficial",
+      "descripción": "Galería de imágenes del evento de inauguración",
+      "tipo": "IMG",
+      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
+    }
+  ]
+}
