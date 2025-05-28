@@ -96,22 +96,22 @@
   "publicaciones": [
     {
       "cod_dpt":"100405",
-      "titulo": "Cartografía Antonio José de Sucre 2009",
-      "descripcion": "Mapa de la Parroquia Antonio José de Sucre",
-      "tipo": "PPT",
-      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
+      "titulo": "Hogares Por Municipio y parroquia año 2011",
+      "descripcion": "Imagen del municipio Perdernales",
+      "tipo": "xls",
+      "url": "https://docs.google.com/spreadsheets/d/1Fak4DC6ifb1S4S6MyWHCYqX_pEfS0daH/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
     },
     {
      "cod_dpt":"100406",
-      "titulo": "Plan de Desarrollo Urbano",
-      "descripción": "Documento que describe el plan de desarrollo para los próximos 5 años",
-      "tipo": "DOC",
-      "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
+      "titulo": "Cartografía Antonio José de Sucre 2009",
+      "descripcion": "Centro de Salud de la Parroquia Pedernales",
+      "tipo": "jpg",
+      "url": "https://drive.google.com/file/d/1aLC7BW2paDm6qLS0B_z93rLFrFBFcc7x/view?usp=drive_link"
     },
      {
        "cod_dpt":"100406",
-      "titulo": "Fotos del Evento Oficial",
-      "descripción": "Galería de imágenes del evento de inauguración",
+      "titulo":  "Centro de Salud Pedernales",
+      "descripcion": "Galería de imágenes del evento de inauguración",
       "tipo": "IMG",
       "url": "https://docs.google.com/presentation/d/1c-t4Is0HdSGHHP4VOZgVdonpHCbJiel/edit/usp=sharing&ouid=10863005287049301490&rtpof=true&sd=true"
     }

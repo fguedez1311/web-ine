@@ -108,17 +108,7 @@ img {
     -webkit-overflow-scrolling: touch;
  }       
 
-@media screen  and (max-width:900px){
-    :root{
-        --height-nav:100px;
-    }
-      .nav__container{
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-    }
-    
-}
+
 table {
             width: 100%;
             border-collapse: collapse;
@@ -399,6 +389,17 @@ td {
             .pagination-btn {
                 flex-grow: 1;
             }
+        }
+        @media screen  and (max-width:900px){
+            :root{
+                --height-nav:100px;
+            }
+            .nav__container{
+                flex-direction: column;
+                justify-content: space-evenly;
+                
+            }
+    
         }
         
         /* Mobile card view */
