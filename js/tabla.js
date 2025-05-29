@@ -10,7 +10,7 @@ const totalItemsSpan = document.getElementById('totalItems');
 let currentPage = 1;
 const itemsPerPage = 5;
 let filteredData = [];
-
+let data = {};
 //Esta Función simplifica los .then
 function myFetch(url){
     return fetch(url).then(res=>res.json())
@@ -81,6 +81,13 @@ async function getData(url){
             tableBody.appendChild(row);
         }, 0);
     });
+    // Update pagination info
+    currentItemsSpan.textContent = `${startIndex + 1}-${Math.min(endIndex, filteredData.length)}`;
+    totalItemsSpan.textContent = filteredData.length;
+    
+    // Update button states
+    prevBtn.disabled = currentPage === 1;
+    nextBtn.disabled = endIndex >= filteredData.length;
             
  }
   // Shorten URL for display
@@ -151,6 +158,56 @@ async function getData(url){
             <i class="fas ${icon}"></i>
         </div>`;
     }
+      // Filter data based on search input
+        function filterData() {
+            const searchTerm = searchInput.value.toLowerCase();
+            
+            if (searchTerm === '') {
+                 filteredData = [...data.publicaciones]; 
+            } else {
+                filteredData = data.publicaciones.filter(publicacion => 
+                    publicacion.titulo.toLowerCase().includes(searchTerm) || 
+                    publicacion.descricion.toLowerCase().includes(searchTerm) ||
+                    publicacion.tipo.toLowerCase().includes(searchTerm) ||
+                    publicacion.url.toLowerCase().includes(searchTerm)
+                );
+            }
+            
+            // Reset to first page when filtering
+            currentPage = 1;
+            renderTable();
+            updatePagination();
+        }
+         // Update pagination controls
+        function updatePagination() {
+            const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+            
+            // Disable/enable buttons as needed
+            prevBtn.disabled = currentPage === 1;
+            nextBtn.disabled = currentPage === totalPages || totalPages === 0;
+        }
+          // Event listeners
+        searchInput.addEventListener('input', filterData);
+        
+        prevBtn.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                renderTable();
+                updatePagination();
+            }
+        });
+        
+        nextBtn.addEventListener('click', () => {
+            const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+            
+            if (currentPage < totalPages) {
+                currentPage++;
+                renderTable();
+                updatePagination();
+            }
+        });
+
+
 
 async function initTable() {
     // Inicializa la tabla con datos del archivo JSON
