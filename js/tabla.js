@@ -24,6 +24,7 @@ async function getData(url){
     }
 }
  function renderTable(){
+    tableBody.innerHTML = '';
 // Calculate pagination
 
     
@@ -162,15 +163,18 @@ async function getData(url){
         function filterData() {
             const searchTerm = searchInput.value.toLowerCase();
             
+            
             if (searchTerm === '') {
                  filteredData = [...data.publicaciones]; 
             } else {
+               
                 filteredData = data.publicaciones.filter(publicacion => 
                     publicacion.titulo.toLowerCase().includes(searchTerm) || 
-                    publicacion.descricion.toLowerCase().includes(searchTerm) ||
+                    publicacion.descripcion.toLowerCase().includes(searchTerm) ||
                     publicacion.tipo.toLowerCase().includes(searchTerm) ||
                     publicacion.url.toLowerCase().includes(searchTerm)
                 );
+                console.log(filteredData)
             }
             
             // Reset to first page when filtering
@@ -215,6 +219,7 @@ async function initTable() {
         data = await getData('datos.json');
         filteredData = [...data.publicaciones]; 
         renderTable();
+         updatePagination()
        
         // Aquí puedes usar filteredData como necesites
     } catch (error) {
